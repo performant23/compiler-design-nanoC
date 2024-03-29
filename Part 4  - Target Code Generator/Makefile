@@ -93,6 +93,6 @@ test7: 31_A5 lib$(BASE).a
 build: 31_A5
 
 clean:
-	rm -f lex.yy.c _.tab.c_ .tab.h _.output_ .o _.s_ .a _.out_ .gch 31_A5 A5_Tests_Outputs/* binary_dump/*
+	rm -f lex.yy.c lex.yy.o $(BASE).tab.c $(BASE).tab.h $(BASE)_asm_gen.o $(BASE)_translator.o $(BASE).tab.o $(BASE).output $(BASE).o $(BASE).s lib$(BASE).a *.gch 31_A5 A5_Tests_Outputs/* binary_dump/*
 
 .PHONY: test1 test2 test3 test4 test5 test6 test7 build clean
