@@ -23,3 +23,4 @@ $(BASE).tab.c $(BASE).tab.h: $(BASE).y
 clean:
 	rm -f lex.yy.c $(BASE).tab.c $(BASE).tab.h *.o translator *.gch
 
+w
