@@ -1,0 +1,25 @@
+
+0   :	t0 = 0
+1   :	i = t0
+
+2   :	main: 
+3   :	t0 = 0
+4   :	return t0
+
+--------------------
+ST: Global              , Parent : NULL                
+--------------------
+name                     type                     initial value            size           offset         nested symbol table
+i                        int                      0                        4              0              NULL
+t0                       int                      0                        4              4              NULL
+main                     int                      -                        4              8              main
+
+
+--------------------
+ST: main                , Parent : Global              
+--------------------
+name                     type                     initial value            size           offset         nested symbol table
+return                   int                      -                        4              0              NULL
+t0                       int                      0                        4              4              NULL
+
+

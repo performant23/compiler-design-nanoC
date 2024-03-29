@@ -1,4 +1,8 @@
 BASE=31_A4
+
+output: translator testcase.nc
+	./translator < testcase.nc > output.txt
+
 build: translator
 
 translator: lex.yy.o $(BASE).tab.o $(BASE)_translator.o
@@ -21,6 +25,5 @@ $(BASE).tab.c $(BASE).tab.h: $(BASE).y
 
 
 clean:
-	rm -f lex.yy.c $(BASE).tab.c $(BASE).tab.h *.o translator *.gch
+	rm -f lex.yy.c $(BASE).tab.c $(BASE).tab.h *.o translator *.gch output.txt
 
-w
