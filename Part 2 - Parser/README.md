@@ -67,7 +67,7 @@ The project is pre-compiled and so, it can be tested against the file 'test.nc' 
 2. `bison 31_A3.y --defines=31_A3.tab.h -o 31_A3.tab.c` (Creates tab.c and tab.h files)
 3. `gcc -o parser lex.yy.c 31_A3.tab.c 31_A3.c -lfl`
 
-A run for a sample C program is given below:
+A run for a sample nanoC program is given below:
 ```c
 int main() {
     int x;

@@ -52,7 +52,7 @@ The project is pre-compiled and so, it can be tested against the file 'testcase.
 6. `g++ lex.yy.o 31_A4.tab.o 31_A4_translator.o -lfl -o translator`
 7. `./translator < testcase.nc > output.txt`
 
-A run for a sample C program is given below:
+A run for a sample nanoC program is given below:
 ```c
 int i = 0;
 int main(){

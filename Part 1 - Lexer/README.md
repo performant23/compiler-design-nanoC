@@ -33,7 +33,7 @@ The project is pre-compiled and so, it can be tested against the file 'test.nc' 
 1. `flex syntaxerrorsquad.l` (This generates lex.yy.c)
 2. `gcc lex.yy.c syntaxerrorsquad_A2.c`
 
-A run on sample C code is given below:
+A run on sample nanoC code is given below:
 
 ```c
 // Add two numbers 
